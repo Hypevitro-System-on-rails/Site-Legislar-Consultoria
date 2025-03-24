@@ -1,0 +1,87 @@
+## Tecnologias Principais
+- **React 18.2.0**: Framework principal para desenvolvimento da interface.
+- **TypeScript**: Para tipagem estática e melhor manutenibilidade do código.
+- **Vite 6.0.4**: Bundler e ferramenta de desenvolvimento rápida.
+- **TailwindCSS 3.4.16**: Framework CSS para estilização moderna e responsiva.
+- **React Router DOM 6.8.1**: Para gerenciamento de rotas.
+
+---
+
+## Dependências Principais
+### **UI Components**
+- `@radix-ui/react-dialog`: Componentes de diálogo acessíveis.
+- `@radix-ui/react-slot`: Sistema de slots para componentes reutilizáveis.
+- `@radix-ui/react-tabs`: Componentes de abas.
+- `class-variance-authority`: Utilitário para variações de classes CSS.
+- `lucide-react`: Biblioteca de ícones moderna.
+- `clsx` e `tailwind-merge`: Utilitários para manipulação de classes CSS.
+
+### **Dependências de Desenvolvimento**
+- `@types/react` e `@types/react-dom`: Tipos TypeScript para React.
+- `@vitejs/plugin-react`: Plugin do Vite para otimização de React.
+- `autoprefixer` e `postcss`: Ferramentas para processamento de CSS.
+- `esbuild`: Bundler JavaScript de alto desempenho.
+- `globals`: Utilitário para variáveis globais.
+
+---
+
+## Estrutura do Projeto
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── lib/           # Utilitários e configurações
+├── pages/         # Páginas da aplicação
+├── screens/       # Telas/views da aplicação
+├── App.tsx        # Componente principal
+└── index.tsx      # Ponto de entrada da aplicação
+```
+
+---
+
+## Scripts Disponíveis
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Gera a versão de produção do projeto.
+
+---
+
+## Requisitos do Sistema
+- **Node.js** instalado no sistema.
+- **NPM** (Node Package Manager) para gerenciar dependências.
+
+---
+
+## Como Executar o Projeto
+1. **Instalar dependências:**
+   ```sh
+   npm install
+   ```
+
+2. **Iniciar servidor de desenvolvimento:**
+   ```sh
+   npm run dev
+   ```
+   O projeto estará disponível em [http://localhost:5173/](http://localhost:5173/).
+
+3. **Gerar build de produção:**
+   ```sh
+   npm run build
+   ```
+
+---
+
+## Características do Projeto
+- **Arquitetura moderna** baseada em componentes reutilizáveis.
+- **Sistema de rotas** implementado com React Router DOM.
+- **Interface responsiva** utilizando TailwindCSS.
+- **Componentes UI acessíveis** com Radix UI.
+- **Suporte a TypeScript** para melhor manutenibilidade.
+- **Sistema de build otimizado** com Vite para carregamento rápido.
+
+---
+
+## Boas Práticas Implementadas
+- **Separação clara** entre componentes, páginas e lógica de negócio.
+- **Uso de TypeScript** para garantir tipagem segura e previsível.
+- **Componentes UI acessíveis**, promovendo inclusão digital.
+- **Sistema de estilização moderno e flexível** com TailwindCSS.
+- **Estrutura organizada e escalável**, permitindo crescimento do projeto.
